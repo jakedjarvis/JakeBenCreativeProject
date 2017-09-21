@@ -1,3 +1,31 @@
 h1{
 	text-align: center;
 }
+
+th{
+	padding-bottom: 15px;
+	padding-top: 15px;
+}
+
+#gpaInputTable{
+	width: 80%;
+	margin: 0 auto;
+}
+
+tr{
+	max-width: 60px;
+}
+
+td{
+	margin: 0 auto;
+	padding: 5px;
+}
+
+label{
+	font-weight: lighter;
+}
+
+p{
+	float: right;
+	padding-right: 5px;
+}
