@@ -29,100 +29,237 @@
 
 			<table style="width:100%">
 			  <tr>
-			    <th>Class</th>
+			    <th>Class Name</th>
 			    <th>Grade</th> 
 			    <th>Number of Credits</th>
 			  </tr>
 			  <tr>
-			    <td>Class1</td>
+			    <td>
+			    	<div class="form-group">
+					  <label for="usr">Enter Class Name:</label>
+					  <input type="text" class="form-control" id="usr">
+					</div>
+			    </td>
 			    <td>
 			    	<div class="dropdown">
 					  <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Select your Letter Grade
 					  <span class="caret"></span></button>
 					  <ul class="dropdown-menu">
-					    <li><a href="#">A</a></li>
-					    <li><a href="#">A-</a></li>
-					    <li><a href="#">B+</a></li>
-					    <li><a href="#">B</a></li>
-					    <li><a href="#">B-</a></li>
-					    <li><a href="#">C+</a></li>
-					    <li><a href="#">C</a></li>
-					    <li><a href="#">C-</a></li>
-					    <li><a href="#">D+</a></li>
-					    <li><a href="#">D</a></li>
-					    <li><a href="#">D-</a></li>
-					    <li><a href="#">F</a></li>
+					    <li><a href="#" onclick="updateGrade('A', 1)">A</a></li>
+					    <li><a href="#" onclick="updateGrade('A-', 1)">A-</a></li>
+					    <li><a href="#" onclick="updateGrade('B+', 1)">B+</a></li>
+					    <li><a href="#" onclick="updateGrade('B', 1)">B</a></li>
+					    <li><a href="#" onclick="updateGrade('B-', 1)">B-</a></li>
+					    <li><a href="#" onclick="updateGrade('C+', 1)">C+</a></li>
+					    <li><a href="#" onclick="updateGrade('C', 1)">C</a></li>
+					    <li><a href="#" onclick="updateGrade('C-', 1)">C-</a></li>
+					    <li><a href="#" onclick="updateGrade('D+', 1)">D+</a></li>
+					    <li><a href="#" onclick="updateGrade('D', 1)">D</a></li>
+					    <li><a href="#" onclick="updateGrade('D-', 1)">D-</a></li>
+					    <li><a href="#" onclick="updateGrade('F', 1)">F</a></li>
 					  </ul>
+					  <p id="displayGrade1"></p>
 					</div>
 			    </td>
 			    <td>
 			    	<div class="form-group">
-					  <label for="usr">Grade:</label>
+					  <label for="usr">Enter Number of Credits:</label>
 					  <input type="text" class="form-control" id="usr">
 					</div>
 			    </td>
 			  </tr>
 			  <tr>
-			    <td>Class2</td>
+			    <td>
+			    	<div class="form-group">
+					  <label for="usr">Enter Class Name:</label>
+					  <input type="text" class="form-control" id="usr">
+					</div>
+			    </td>
 			    <td><div class="dropdown">
 					  <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Select your Letter Grade
 					  <span class="caret"></span></button>
 					  <ul class="dropdown-menu">
-					    <li><a href="#">A</a></li>
-					    <li><a href="#">A-</a></li>
-					    <li><a href="#">B+</a></li>
-					    <li><a href="#">B</a></li>
-					    <li><a href="#">B-</a></li>
-					    <li><a href="#">C+</a></li>
-					    <li><a href="#">C</a></li>
-					    <li><a href="#">C-</a></li>
-					    <li><a href="#">D+</a></li>
-					    <li><a href="#">D</a></li>
-					    <li><a href="#">D-</a></li>
-					    <li><a href="#">F</a></li>
+					    <li><a href="#" onclick="updateGrade('A', 2)">A</a></li>
+					    <li><a href="#" onclick="updateGrade('A-', 2)">A-</a></li>
+					    <li><a href="#" onclick="updateGrade('B+', 2)">B+</a></li>
+					    <li><a href="#" onclick="updateGrade('B', 2)">B</a></li>
+					    <li><a href="#" onclick="updateGrade('B-', 2)">B-</a></li>
+					    <li><a href="#" onclick="updateGrade('C+', 2)">C+</a></li>
+					    <li><a href="#" onclick="updateGrade('C', 2)">C</a></li>
+					    <li><a href="#" onclick="updateGrade('C-', 2)">C-</a></li>
+					    <li><a href="#" onclick="updateGrade('D+', 2)">D+</a></li>
+					    <li><a href="#" onclick="updateGrade('D', 2)">D</a></li>
+					    <li><a href="#" onclick="updateGrade('D-', 2)">D-</a></li>
+					    <li><a href="#" onclick="updateGrade('F', 2)">F</a></li>
 					  </ul>
+					  <p id="displayGrade2"></p>
 					</div></td>
 			    <td>
 			    	<div class="form-group">
-					  <label for="usr">Grade:</label>
+					  <label for="usr">Enter Number of Credits:</label>
 					  <input type="text" class="form-control" id="usr">
 					</div>
 			    </td>
 			  </tr>
 			  <tr>
-			    <td>Class3</td>
-			    <td><div class="dropdown">
+			    <td>
+			    	<div class="form-group">
+					  <label for="usr">Enter Class Name:</label>
+					  <input type="text" class="form-control" id="usr">
+					</div>
+			    </td>
+			    <td>
+			    	<div class="dropdown">
 					  <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Select your Letter Grade
 					  <span class="caret"></span></button>
 					  <ul class="dropdown-menu">
-					    <li><a href="#">A</a></li>
-					    <li><a href="#">A-</a></li>
-					    <li><a href="#">B+</a></li>
-					    <li><a href="#">B</a></li>
-					    <li><a href="#">B-</a></li>
-					    <li><a href="#">C+</a></li>
-					    <li><a href="#">C</a></li>
-					    <li><a href="#">C-</a></li>
-					    <li><a href="#">D+</a></li>
-					    <li><a href="#">D</a></li>
-					    <li><a href="#">D-</a></li>
-					    <li><a href="#">F</a></li>
+					    <li><a href="#" onclick="updateGrade('A', 3)">A</a></li>
+					    <li><a href="#" onclick="updateGrade('A-', 3)">A-</a></li>
+					    <li><a href="#" onclick="updateGrade('B+', 3)">B+</a></li>
+					    <li><a href="#" onclick="updateGrade('B', 3)">B</a></li>
+					    <li><a href="#" onclick="updateGrade('B-', 3)">B-</a></li>
+					    <li><a href="#" onclick="updateGrade('C+', 3)">C+</a></li>
+					    <li><a href="#" onclick="updateGrade('C', 3)">C</a></li>
+					    <li><a href="#" onclick="updateGrade('C-', 3)">C-</a></li>
+					    <li><a href="#" onclick="updateGrade('D+', 3)">D+</a></li>
+					    <li><a href="#" onclick="updateGrade('D', 3)">D</a></li>
+					    <li><a href="#" onclick="updateGrade('D-', 3)">D-</a></li>
+					    <li><a href="#" onclick="updateGrade('F', 3)">F</a></li>
 					  </ul>
+					  <p id="displayGrade3"></p>
 					</div></td>
 			    <td>
 			    	<div class="form-group">
-					  <label for="usr">Grade:</label>
+					  <label for="usr">Enter Number of Credits:</label>
+					  <input type="text" class="form-control" id="usr">
+					</div>
+			    </td>
+			  </tr>
+			  <tr>
+			    <td>
+			    	<div class="form-group">
+					  <label for="usr">Enter Class Name:</label>
+					  <input type="text" class="form-control" id="usr">
+					</div>
+			    </td>
+			    <td>
+			    	<div class="dropdown">
+					  <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Select your Letter Grade
+					  <span class="caret"></span></button>
+					  <ul class="dropdown-menu">
+					    <li><a href="#" onclick="updateGrade('A', 4)">A</a></li>
+					    <li><a href="#" onclick="updateGrade('A-', 4)">A-</a></li>
+					    <li><a href="#" onclick="updateGrade('B+', 4)">B+</a></li>
+					    <li><a href="#" onclick="updateGrade('B', 4)">B</a></li>
+					    <li><a href="#" onclick="updateGrade('B-', 4)">B-</a></li>
+					    <li><a href="#" onclick="updateGrade('C+', 4)">C+</a></li>
+					    <li><a href="#" onclick="updateGrade('C', 4)">C</a></li>
+					    <li><a href="#" onclick="updateGrade('C-', 4)">C-</a></li>
+					    <li><a href="#" onclick="updateGrade('D+', 4)">D+</a></li>
+					    <li><a href="#" onclick="updateGrade('D', 4)">D</a></li>
+					    <li><a href="#" onclick="updateGrade('D-', 4)">D-</a></li>
+					    <li><a href="#" onclick="updateGrade('F', 4)">F</a></li>
+					  </ul>
+					  <p id="displayGrade4"></p>
+					</div></td>
+			    <td>
+			    	<div class="form-group">
+					  <label for="usr">Enter Number of Credits:</label>
+					  <input type="text" class="form-control" id="usr">
+					</div>
+			    </td>
+			  </tr><tr>
+			    <td>
+			    	<div class="form-group">
+					  <label for="usr">Enter Class Name:</label>
+					  <input type="text" class="form-control" id="usr">
+					</div>
+			    </td>
+			    <td>
+			    	<div class="dropdown">
+					  <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Select your Letter Grade
+					  <span class="caret"></span></button>
+					  <ul class="dropdown-menu">
+					    <li><a href="#" onclick="updateGrade('A', 5)">A</a></li>
+					    <li><a href="#" onclick="updateGrade('A-', 5)">A-</a></li>
+					    <li><a href="#" onclick="updateGrade('B+', 5)">B+</a></li>
+					    <li><a href="#" onclick="updateGrade('B', 5)">B</a></li>
+					    <li><a href="#" onclick="updateGrade('B-', 5)">B-</a></li>
+					    <li><a href="#" onclick="updateGrade('C+', 5)">C+</a></li>
+					    <li><a href="#" onclick="updateGrade('C', 5)">C</a></li>
+					    <li><a href="#" onclick="updateGrade('C-', 5)">C-</a></li>
+					    <li><a href="#" onclick="updateGrade('D+', 5)">D+</a></li>
+					    <li><a href="#" onclick="updateGrade('D', 5)">D</a></li>
+					    <li><a href="#" onclick="updateGrade('D-', 5)">D-</a></li>
+					    <li><a href="#" onclick="updateGrade('F', 5)">F</a></li>
+					  </ul>
+					  <p id="displayGrade5"></p>
+					</div>
+				</td>
+			    <td>
+			    	<div class="form-group">
+					  <label for="usr">Enter Number of Credits:</label>
 					  <input type="text" class="form-control" id="usr">
 					</div>
 			    </td>
 			  </tr>
 			</table>
 
+		</div>
 
+		<div id="buttonsDiv">
+
+			<button type="button" class="btn btn-primary" onclick="calcGPA()">Calculate</button>
 
 		</div>
 
 
+
+
+
+		<script>
+
+		/*var gradeMap = 
+		{
+			"A": 4,
+			"A-": 3.7,
+			"B+": 3.3,
+			"B": 3;
+			"B-": 2.7,
+			"C+": 2.3,
+			"C": 2,
+			"C-": 1.7,
+			"D+": 1.3,
+			"D": 1,
+			"D-": .7,
+			"F": 0,
+		}*/
+
+			function updateGrade(grade, dropNum){
+				console.log(grade, dropNum);
+
+
+				console.log(document.getElementById("displayGrade"+ dropNum));
+
+				document.getElementById("displayGrade"+ dropNum).innerHTML = grade;
+			};
+
+			function calcGPA() {
+
+				var gradeArray = [];
+
+				for(var i = 1; i < 6; i++)
+				{
+					gradeArray[i] = document.getElementById("displayGrade"+ i).innerHTML;
+				}
+
+				console.log(gradeArray);
+				console.log(gradeMap);
+
+
+			};
+		</script>
+	
 
 	</body>
 
