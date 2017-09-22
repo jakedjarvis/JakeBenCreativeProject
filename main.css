@@ -29,3 +29,16 @@ p{
 	float: right;
 	padding-right: 5px;
 }
+
+#calcButton{
+	float: right;
+}
+
+#buttonsDiv{
+	width: 90%;
+	margin: 0px;
+}
+
+#displayGPA{
+	padding: 15px;
+}
